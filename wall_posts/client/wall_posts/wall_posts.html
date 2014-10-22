@@ -1,0 +1,11 @@
+<template name="wall_posts">
+  <div class="container">
+    <h1 class="ui header align-center">The Great Meteor Wall</h1>
+    <div class="ui divider"></div>
+    {{> add_wall_post}}
+    <div class="wall-posts">
+      {{#each posts}}{{> wall_post}}{{/each}}
+    </div>
+    <button id="load-more" class="fluid ui black button">Load More</button>
+  </div>
+</template>

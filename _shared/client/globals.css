@@ -1,0 +1,27 @@
+
+html {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #101010;
+  background: #e5e5e5;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.container {
+  margin: 30px auto;
+  width: 95%;
+  max-width: 600px;
+}
+
+/* override semantic-ui styles */
+
+.ui.header {
+  font-weight: 300;
+}
+
+.ui.button {
+  -webkit-font-smoothing: antialiased;
+}

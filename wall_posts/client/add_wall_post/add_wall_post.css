@@ -1,0 +1,10 @@
+.ui.segment.wall-post-form {
+  padding: 0;
+}
+
+#post-content {
+  height: 5em;
+  min-height: 5em;
+  resize: none;
+  border: none;
+}

@@ -1,0 +1,15 @@
+.wall-posts {
+  -webkit-perspective: 600px;
+  perspective: 600px;
+}
+
+.wall-post {
+  transition: transform 0.5s, -webkit-transform 0.5s, color 0.5s;
+  -webkit-transition: transform 0.5s, -webkit-transform 0.5s, color 0.5s;
+}
+
+.wall-post.pending {
+  color: #a0a0a0;
+  -webkit-transform: rotateX(30deg);
+  transform: rotateX(30deg);
+}
